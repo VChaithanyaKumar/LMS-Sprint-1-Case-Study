@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Capgemini Training\\LMS Sprint1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj": {}
+    "D:\\LMS-1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj": {}
   },
   "projects": {
-    "G:\\Capgemini Training\\LMS Sprint1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj": {
+    "D:\\LMS-1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Capgemini Training\\LMS Sprint1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj",
+        "projectUniqueName": "D:\\LMS-1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj",
         "projectName": "LMS.UI",
-        "projectPath": "G:\\Capgemini Training\\LMS Sprint1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "G:\\Capgemini Training\\LMS Sprint1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\obj\\",
+        "projectPath": "D:\\LMS-1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj",
+        "packagesPath": "C:\\Users\\Nimisha Bhargavi\\.nuget\\packages\\",
+        "outputPath": "D:\\LMS-1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nimisha Bhargavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
