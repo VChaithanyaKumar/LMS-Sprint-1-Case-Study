@@ -17,15 +17,6 @@ namespace LMS.BAL.Validations
             else
                 return false;
         }
-        public static bool CheckUserName(string DbUserName, string UserName)
-        {
-            if (DbUserName.Equals(UserName))
-            {
-                return true;
-            }
-            else
-                return false;
-        }
         public static bool CheckUserType(string DbUserType, string UserType)
         {
             if (DbUserType.Equals(UserType))

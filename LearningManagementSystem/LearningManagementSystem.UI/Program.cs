@@ -45,7 +45,7 @@ namespace LearningManagementSystem.UI
                                     case 2:
                                         {
                                             user = new User();
-                                            user.UserType = "Login";
+                                            user.UserType = "Learner";
                                             Console.WriteLine("enter email");
                                             user.UserEmail = Console.ReadLine();
                                             Console.WriteLine("enter password");

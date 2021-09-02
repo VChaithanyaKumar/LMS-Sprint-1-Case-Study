@@ -15,17 +15,21 @@ namespace LMS.BAL
         public string LoginUser(User user)
         {
             userObj=login.GetLoginDetails(user.UserEmail);
+            if (userObj == null)
+            {
+                return "Invalid Email";
+            }
             if (!LoginValidation.CheckUserType(user.UserType,userObj.UserType))
             {
-                return "User is not " + user.UserEmail;
+                return "User is not " + user.UserType;
             }
-            if (LoginValidation.CheckUserName(user.UserEmail, userObj.UserEmail) && LoginValidation.CheckPassword(user.UserPassword, userObj.UserPassword))
+            if (LoginValidation.CheckPassword(user.UserPassword, userObj.UserPassword))
             {
                 return "Logged In!!";
             }
             else
             {
-                return "UserName or password is invalid!! ";
+                return "Invalid Password!! ";
             }
 
         }
