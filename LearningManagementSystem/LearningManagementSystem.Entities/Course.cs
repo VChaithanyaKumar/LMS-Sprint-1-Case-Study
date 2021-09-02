@@ -10,7 +10,7 @@ namespace LearningManagementSystem.Entities
     {
         public decimal CourseId { get; set; }
         public string CourseTitle { get; set; }
-        public string CourseDercription { get; set; }
+        public string CourseDescription { get; set; }
         public decimal AuthorId { get; set; }
         public string CourseOutcomes { get; set; }
     }
