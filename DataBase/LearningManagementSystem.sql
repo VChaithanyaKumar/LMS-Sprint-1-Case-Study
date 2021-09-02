@@ -31,11 +31,11 @@ AuthorEmail varchar(20))
 
 
 --inserting into author table
-insert into Author values(10001,'P.J Allen',' ','M','P.J Allen@gmail.com')
-insert into Author values(10002,'H. Schild',' ','M','H. Schild@gmail.com')
-insert into Author values(10003,'B. C Desai',' ','F','B. C Desai@gmail.com')
-insert into Author values(10004,'Cormen',' ','M','Cormen@gmail.com')
-insert into Author values(10005,'Millan',' ','F','Millan@gmail.com')
+insert into Author values(10001,'P.J. Allen',' ','M','p.j.allen@gmail.com')
+insert into Author values(10002,'H. Schild',' ','M','h.schild@gmail.com')
+insert into Author values(10003,'B.C. Desai',' ','F','b.c.desai@gmail.com')
+insert into Author values(10004,'Cormen',' ','M','cormen@gmail.com')
+insert into Author values(10005,'Millan',' ','F','millan@gmail.com')
 
 
 --created a table named Courses
@@ -47,11 +47,11 @@ CourseOutcomes varchar(100))
 
 
 --inserting into courses table
-insert into Course values(10011,'Learn C#','Learn C# with easy with almost no pre requisites',10001,'By the end of this course you will learn c# from start to finish')
-insert into Course values(10012,'Learn ADO.NET','Learn ADO.NET with easy with prior knowledge in c#',10002,'By the end of this course you will learn ADO.NET from start to finish')
-insert into Course values(10013,'Learn JAVA','Learn JAVA with easy with almost no pre requisites',10003,'By the end of this course you will learn JAVA from start to finish')
-insert into Course values(10014,'Learn Python','Learn Python with easy with almost no pre requisites',10004,'By the end of this course you will learn Python from start to finish')
-insert into Course values(10015,'Learn C++','Learn C++ with easy with almost no pre requisites',10005,'By the end of this course you will learn C++ from start to finish')
+insert into Course values(10011,'Learn C#','Learn C# with ease. Note: No pre-requisites.',10001,'By the end of this course, you will learn c# from scratch.')
+insert into Course values(10012,'Learn ADO.NET','Learn ADO.NET with ease. Note: Prior knowledge in c# required.',10002,'By the end of this course, you will learn ADO.NET from scratch.')
+insert into Course values(10013,'Learn JAVA','Learn JAVA with ease. Note: No pre-requisites.',10003,'By the end of this course, you will learn JAVA from scratch.')
+insert into Course values(10014,'Learn Python','Learn Python with ease. Note: No pre-requisites.',10004,'By the end of this course, you will learn Python from scratch.')
+insert into Course values(10015,'Learn C++','Learn C++ with ease. Note: No pre-requisites.',10005,'By the end of this course, you will learn C++ from scratch.')
 
 
 --created a table named CourseEroll
