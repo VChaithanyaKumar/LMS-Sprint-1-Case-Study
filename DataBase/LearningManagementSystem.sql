@@ -1,6 +1,7 @@
 --creating database named LearningManagementSystem
 create database LearningManagementSystem
 
+using LearningManagementSystem
 
 --created a table named Users
 create table [User](UserType varchar(20) check(UserType in('Admin','Learner')),
