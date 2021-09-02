@@ -8,8 +8,11 @@ namespace LearningManagementSystem.Entities
 {
     class Question
     {
-        public int QuestionId { get; set; }
-        public int QuestionDescription { get; set; }
-        public int CourseId { get; set; }
+        public decimal QuestionId { get; set; }
+        public decimal CourseId { get; set; }
+        public string QuestionDescription { get; set; }
+        public string AnswerDescription { get; set; }
+
+
     }
 }

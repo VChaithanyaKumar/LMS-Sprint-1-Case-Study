@@ -8,7 +8,7 @@ namespace LearningManagementSystem.Entities
 {
     class Author
     {
-        public int AuthorId { get; set; }
+        public decimal AuthorId { get; set; }
         public string AuthorFirstName { get; set; }
         public string AuthorLastName { get; set; }
         public char Gender { get; set; }

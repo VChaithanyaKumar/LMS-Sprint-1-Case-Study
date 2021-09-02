@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningManagementSystem.UI", "LearningManagementSystem.UI\LearningManagementSystem.UI.csproj", "{42D73F70-A9BC-44F6-B77B-B8FB88FAB538}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LMS.UI", "LearningManagementSystem.UI\LMS.UI.csproj", "{42D73F70-A9BC-44F6-B77B-B8FB88FAB538}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningManagementSystem.Entities", "LearningManagementSystem.Entities\LearningManagementSystem.Entities.csproj", "{DB469513-646E-4C07-B7BB-851DB1EB9009}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LMS.Entities", "LearningManagementSystem.Entities\LMS.Entities.csproj", "{DB469513-646E-4C07-B7BB-851DB1EB9009}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningManagementSystem.DAL", "LearningManagementSystem.DAL\LearningManagementSystem.DAL.csproj", "{02F7FA62-D4FB-45A8-962C-E9A0FC7C8341}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LMS.DAL", "LearningManagementSystem.DAL\LMS.DAL.csproj", "{02F7FA62-D4FB-45A8-962C-E9A0FC7C8341}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningManagementSystem.BAL", "LearningManagementSystem.BAL\LearningManagementSystem.BAL.csproj", "{B873C71D-01E0-4117-9EC5-CF64214799D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LMS.BAL", "LearningManagementSystem.BAL\LMS.BAL.csproj", "{B873C71D-01E0-4117-9EC5-CF64214799D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

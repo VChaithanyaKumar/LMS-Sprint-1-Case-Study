@@ -8,10 +8,10 @@ namespace LearningManagementSystem.Entities
 {
     class Course
     {
-        public int CourseId { get; set; }
+        public decimal CourseId { get; set; }
         public string CourseTitle { get; set; }
         public string CourseDercription { get; set; }
-        public int AuthorId { get; set; }
-        public string CourseOutcome { get; set; }
+        public decimal AuthorId { get; set; }
+        public string CourseOutcomes { get; set; }
     }
 }

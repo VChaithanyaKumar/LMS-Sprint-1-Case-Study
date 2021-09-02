@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace LearningManagementSystem.Entities
 {
-    class Answer
+    class Result
     {
-        public int AnswerId { get; set; }
-        public int QuestionId { get; set; }
-        public string AnswerDescription { get; set; }
+        public decimal UserId { get; set; }
+        public decimal CourseId { get; set; }
+        public int ResultDescription { get; set; }
     }
 }
