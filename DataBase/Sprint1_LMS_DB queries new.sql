@@ -30,11 +30,11 @@ AuthorEmail varchar(20))
 
 
 --inserting into author table
-insert into Author values(10001,'P.J Allen',' ','M','P.J Allen@gmail.com')
-insert into Author values(10002,'H. Schild',' ','M','H. Schild@gmail.com')
-insert into Author values(10003,'B. C Desai',' ','F','B. C Desai@gmail.com')
-insert into Author values(10004,'Cormen',' ','M','Cormen@gmail.com')
-insert into Author values(10005,'Millan',' ','F','Millan@gmail.com')
+insert into Author values(10001,'P.J. Allen',' ','M','p.j.allen@gmail.com')
+insert into Author values(10002,'H. Schild',' ','M','h.schild@gmail.com')
+insert into Author values(10003,'B. C Desai',' ','F','b.c.desai@gmail.com')
+insert into Author values(10004,'Cormen',' ','M','cormen@gmail.com')
+insert into Author values(10005,'Millan',' ','F','millan@gmail.com')
 
 
 --created a table named Courses
