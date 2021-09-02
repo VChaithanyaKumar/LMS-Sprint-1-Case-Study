@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {}
+    "C:\\Users\\chint\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Module2Sprint\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.BAL\\LearningManagementSystem.BAL.csproj",
+      "projectUniqueName": "D:\\Code\\codeRED\\CapGemini\\Git share\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.BAL\\LearningManagementSystem.BAL.csproj",
       "projectName": "LearningManagementSystem.BAL",
-      "projectPath": "G:\\Module2Sprint\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.BAL\\LearningManagementSystem.BAL.csproj",
-      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "G:\\Module2Sprint\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.BAL\\obj\\",
+      "projectPath": "D:\\Code\\codeRED\\CapGemini\\Git share\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.BAL\\LearningManagementSystem.BAL.csproj",
+      "packagesPath": "C:\\Users\\chint\\.nuget\\packages\\",
+      "outputPath": "D:\\Code\\codeRED\\CapGemini\\Git share\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.BAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\chint\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
