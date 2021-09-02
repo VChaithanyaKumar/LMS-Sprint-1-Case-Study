@@ -5,4 +5,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LearningManagementSystem.BAL\LMS.BAL.csproj" />
+    <ProjectReference Include="..\LearningManagementSystem.DAL\LMS.DAL.csproj" />
+    <ProjectReference Include="..\LearningManagementSystem.Entities\LMS.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

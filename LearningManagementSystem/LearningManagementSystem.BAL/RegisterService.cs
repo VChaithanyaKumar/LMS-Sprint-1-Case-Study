@@ -2,7 +2,7 @@
 using LMS.DAL;
 using LMS.BAL.Validations;
 using LearningManagementSystem.Entities;
-namespace LearningManagementSystem.BAL
+namespace LMS.BAL
 {
     //Registration-- Josy George
     public class RegisterService
@@ -16,13 +16,16 @@ namespace LearningManagementSystem.BAL
             register = new RegisterRepository();
         }
         //invoking AddUser from the RegisterRepository
-        public void RegisterUser(User user)
+        public string RegisterUser(User user)
         {
-            if (UserValidation.CheckPassword(user.UserPassword, Re_Password))
+            if (RegisterValidation.CheckPassword(user.UserPassword, Re_Password))
             {
 
                 register.AddingUser(user);
+                return "SucessfullyAdded!";
             }
+            else
+                return "Password missmatch!";
 
         }
 

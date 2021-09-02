@@ -1,0 +1,15 @@
+G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\bin\Debug\net5.0\LMS.DAL.deps.json
+G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\bin\Debug\net5.0\LMS.DAL.dll
+G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\bin\Debug\net5.0\ref\LMS.DAL.dll
+G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\bin\Debug\net5.0\LMS.DAL.pdb
+G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\bin\Debug\net5.0\LMS.Entities.dll
+G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\bin\Debug\net5.0\LMS.Entities.pdb
+G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\LMS.DAL.csproj.AssemblyReference.cache
+G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\LMS.DAL.GeneratedMSBuildEditorConfig.editorconfig
+G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\LMS.DAL.AssemblyInfoInputs.cache
+G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\LMS.DAL.AssemblyInfo.cs
+G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\LMS.DAL.csproj.CoreCompileInputs.cache
+G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\LMS.DAL.csproj.CopyComplete
+G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\LMS.DAL.dll
+G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\ref\LMS.DAL.dll
+G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\LMS.DAL.pdb
