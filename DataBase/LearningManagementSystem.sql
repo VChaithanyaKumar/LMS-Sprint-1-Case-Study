@@ -2,25 +2,19 @@
 create database LearningManagementSystem
 
 
---created table named Admin
-create table [Admin](AdminId numeric(10),
-AdminPassword varchar(30) check((len(AdminPassword)>=8) and (len(AdminPassword)<=15)))
-
-
---inserting into admin table
-insert into [Admin] values(1234,'Admin@1234')
-
-
 --created a table named Users
-create table [User](UserId numeric(10) primary key,
-UserName varchar(20) unique,
+create table [User](UserType varchar(20) check(UserType in('Admin','Learner')),
+UserId numeric(10) primary key,
+UserEmail varchar(30) unique,
 UserPassword varchar(30) check((len(UserPassword)>=8) and (len(UserPassword)<=15)),
 UserFirstName varchar(30) not null,
-UserLastName varchar(30) not null,
-Gender char check(Gender in('M','F','T')),
-UserEmail varchar(30),
-[Address] varchar(30))
+UserLastName varchar(30) default null,
+Gender char check(Gender in('M','F','T')))
 
+
+--preloding the admin details
+insert into [User] values('Admin',10001,'admin@gmail.com','Admin@1234','Admin','Admin','M')
+select * from [User]
 
 --created a table named Author
 create table Author(AuthorId numeric(10) primary key,
@@ -66,72 +60,42 @@ CourseStatus bit)
 --created a table named Question
 create table Question(QuestionId numeric(10) primary key,
 CourseId numeric(10) foreign key references Course(CourseId),
-QuestionDescription varchar(100) not null)
+QuestionDescription varchar(100) not null,
+AnswerDescription varchar(100) not null)
 
 
 --inserting into Question table
 
 --questions related to C#
-insert into Question values(10021,10011,'The ____ language allows more than one method in a single class.')
-insert into Question values(10022,10011,'All C# applications begin execution by calling the _____ method.')
-insert into Question values(10023,10011,'A _______ is an identifier that denotes a storage location.')
+insert into Question values(10021,10011,'The ____ language allows more than one method in a single class.','C#')
+insert into Question values(10022,10011,'All C# applications begin execution by calling the _____ method.','Main()')
+insert into Question values(10023,10011,'A _______ is an identifier that denotes a storage location.','Variable')
 
 --questions realetd to AD0.NET
-insert into Question values(10024,10012,'In a connection string _____________ represents name of the database.')
-insert into Question values(10025,10012,'Which ado.net class provide a disconnected environment?')
-insert into Question values(10026,10012,'Which database is the ADO.NET SqlConnection object designed for?')
+insert into Question values(10024,10012,'In a connection string _____________ represents name of the database.','Initial Catalog')
+insert into Question values(10025,10012,'Which ado.net class provide a disconnected environment?','DataSet')
+insert into Question values(10026,10012,'Which database is the ADO.NET SqlConnection object designed for?','Microsoft SQL Server')
 
 --questions related to Java
-insert into Question values(10027,10013,'_____ is used to find and fix bugs in the Java programs.')
-insert into Question values(10028,10013,'What is the return type of the hashCode() method in the Object class?')
-insert into Question values(10029,10013,'In which process, a local variable has the same name as one of the instance variables?')
+insert into Question values(10027,10013,'_____ is used to find and fix bugs in the Java programs.','JDB')
+insert into Question values(10028,10013,'What is the return type of the hashCode() method in the Object class?','int')
+insert into Question values(10029,10013,'In which process, a local variable has the same name as one of the instance variables?','Variable Shadowing')
 
 --questions related to Python
-insert into Question values(10130,10014,'Who developed the Python language?')
-insert into Question values(10131,10014,'In which year was the Python language developed?')
-insert into Question values(10132,10014,'In which language is Python written?')
+insert into Question values(10130,10014,'Who developed the Python language?','Guido van Rossum')
+insert into Question values(10131,10014,'In which year was the Python language developed?','1989')
+insert into Question values(10132,10014,'In which language is Python written?','C')
 
 --questions related to C++
-insert into Question values(10133,10015,'The programming language that has the ability to create new data types is called___.')
-insert into Question values(10134,10015,'Which of the following is the original creator of the C++ language?')
-insert into Question values(10135,10015,'The C++ language is ______ object-oriented language.')
+insert into Question values(10133,10015,'The programming language that has the ability to create new data types is called___.','Extensible')
+insert into Question values(10134,10015,'Which of the following is the original creator of the C++ language?','Bjarne Stroustrup')
+insert into Question values(10135,10015,'The C++ language is ______ object-oriented language.','Semi Object-oriented or Partial Object-oriented')
 
-
---created a table named Answer
-create table Answer(AnswerId numeric(10),
-QuestionId numeric(10) foreign key references Question(QuestionId),
-AnswerDescription varchar(100) not null)
-
-
---inserting into Answer table
-
---answers related to C#
-insert into Answer values(10031,10021,'C#'	)
-insert into Answer values(10032,10022,'Main()')
-insert into Answer values(10033,10023,'Variable')
-
---answers related to ADO.NET
-insert into Answer values(10034,10024,'Initial Catalog')
-insert into Answer values(10035,10025,'DataSet')
-insert into Answer values(10036,10026,'Microsoft SQL Server')
-
---answers related to Java
-insert into Answer values(10037,10027,'JDB')
-insert into Answer values(10038,10028,'int')
-insert into Answer values(10039,10029,'Variable Shadowing')
-
---answers related to Python
-insert into Answer values(10140,10130,'Guido van Rossum')
-insert into Answer values(10141,10131,'1989')
-insert into Answer values(10142,10132,'C')
-
---answers related to C++
-insert into Answer values(10143,10133,'Extensible')
-insert into Answer values(10144,10134,'Bjarne Stroustrup')
-insert into Answer values(10145,10135,'Semi Object-oriented or Partial Object-oriented')
 
 --creating table named Result
 create table Result(
 UserId numeric(10) foreign key references [User](UserId),
 CourseId numeric(10) foreign key references Course(CourseId),
 ResultDescription int not null)
+
+
