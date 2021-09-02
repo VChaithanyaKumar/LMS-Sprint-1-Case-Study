@@ -131,7 +131,7 @@ insert into Answer values(10144,10134,'Bjarne Stroustrup')
 insert into Answer values(10145,10135,'Semi Object-oriented or Partial Object-oriented')
 
 --creating table named Result
-create table Result(ResultId numeric(10) primary key,
+create table Result(
 UserId numeric(10) foreign key references [User](UserId),
 CourseId numeric(10) foreign key references Course(CourseId),
 ResultDescription int not null)
