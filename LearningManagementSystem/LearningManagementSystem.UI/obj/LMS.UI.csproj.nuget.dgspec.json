@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Module2Sprint\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj": {}
+    "D:\\Github\\projec\\LMS-Sprint-1-Case-Study\\LMS\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj": {}
   },
   "projects": {
-    "G:\\Module2Sprint\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj": {
+    "D:\\Github\\projec\\LMS-Sprint-1-Case-Study\\LMS\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Module2Sprint\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj",
+        "projectUniqueName": "D:\\Github\\projec\\LMS-Sprint-1-Case-Study\\LMS\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj",
         "projectName": "LMS.UI",
-        "projectPath": "G:\\Module2Sprint\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "G:\\Module2Sprint\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\obj\\",
+        "projectPath": "D:\\Github\\projec\\LMS-Sprint-1-Case-Study\\LMS\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj",
+        "packagesPath": "C:\\Users\\Nimisha Bhargavi\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\projec\\LMS-Sprint-1-Case-Study\\LMS\\LearningManagementSystem\\LearningManagementSystem.UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nimisha Bhargavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

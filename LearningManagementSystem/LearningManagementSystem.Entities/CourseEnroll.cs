@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LearningManagementSystem.Entities
 {
-    class CourseEnroll
+    public class CourseEnroll
     {
         public decimal EnrollId { get; set; }
         public decimal UserId { get; set; }

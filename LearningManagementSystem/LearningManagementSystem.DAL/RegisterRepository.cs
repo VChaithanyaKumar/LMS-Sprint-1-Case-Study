@@ -8,7 +8,7 @@ using System.Data;
 using System.Collections.Generic;
 namespace LMS.DAL
 {
-    class RegisterRepository: IRegisterRepository
+    public class RegisterRepository: IRegisterRepository
     {
         //Connecting to Database--Praveena
         SqlConnection connection = new SqlConnection(@"Data Source=NAINACHINNA\SQLEXPRESS;Initial Catalog=LearningManagementSystem;Integrated Security=True");

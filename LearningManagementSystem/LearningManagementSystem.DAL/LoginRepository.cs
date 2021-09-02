@@ -9,7 +9,7 @@ using System.Data;
 using LearningManagementSystem.Entities;
 namespace LMS.DAL
 {
-    class LoginRepository: ILoginRepository
+    public class LoginRepository: ILoginRepository
     {
         //Connecting to Database--Praveena
         SqlConnection connection = new SqlConnection(@"Data Source=NAINACHINNA\SQLEXPRESS;Initial Catalog=LearningManagementSystem;Integrated Security=True");

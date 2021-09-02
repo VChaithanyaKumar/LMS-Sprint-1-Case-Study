@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LearningManagementSystem.Entities
 {
-    class Author
+    public class Author
     {
         public decimal AuthorId { get; set; }
         public string AuthorFirstName { get; set; }
