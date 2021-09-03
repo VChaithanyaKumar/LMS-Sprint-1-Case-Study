@@ -13,3 +13,18 @@ G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net
 G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\LMS.DAL.dll
 G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\ref\LMS.DAL.dll
 G:\MyCopyLMS\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\LMS.DAL.pdb
+G:\Capgemini Training\LMS Sprint1\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.DAL\bin\Debug\net5.0\LMS.DAL.deps.json
+G:\Capgemini Training\LMS Sprint1\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.DAL\bin\Debug\net5.0\LMS.DAL.dll
+G:\Capgemini Training\LMS Sprint1\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.DAL\bin\Debug\net5.0\ref\LMS.DAL.dll
+G:\Capgemini Training\LMS Sprint1\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.DAL\bin\Debug\net5.0\LMS.DAL.pdb
+G:\Capgemini Training\LMS Sprint1\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.DAL\bin\Debug\net5.0\LMS.Entities.dll
+G:\Capgemini Training\LMS Sprint1\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.DAL\bin\Debug\net5.0\LMS.Entities.pdb
+G:\Capgemini Training\LMS Sprint1\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\LMS.DAL.csproj.AssemblyReference.cache
+G:\Capgemini Training\LMS Sprint1\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\LMS.DAL.GeneratedMSBuildEditorConfig.editorconfig
+G:\Capgemini Training\LMS Sprint1\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\LMS.DAL.AssemblyInfoInputs.cache
+G:\Capgemini Training\LMS Sprint1\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\LMS.DAL.AssemblyInfo.cs
+G:\Capgemini Training\LMS Sprint1\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\LMS.DAL.csproj.CoreCompileInputs.cache
+G:\Capgemini Training\LMS Sprint1\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\LMS.DAL.csproj.CopyComplete
+G:\Capgemini Training\LMS Sprint1\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\LMS.DAL.dll
+G:\Capgemini Training\LMS Sprint1\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\ref\LMS.DAL.dll
+G:\Capgemini Training\LMS Sprint1\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.DAL\obj\Debug\net5.0\LMS.DAL.pdb

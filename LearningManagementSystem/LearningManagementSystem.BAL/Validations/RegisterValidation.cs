@@ -19,7 +19,7 @@ namespace LMS.BAL.Validations
         }
         public static bool ValidatePassword(string Password)
         {
-            string pattern = @"^(?=.[0-9])(?=.[a-z])(?=.[A-Z])(?=.[@#$%&*]).{8,15}";
+            string pattern = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,15}$";
             Regex regex = new Regex(pattern);
             if (regex.IsMatch(Password))
             {

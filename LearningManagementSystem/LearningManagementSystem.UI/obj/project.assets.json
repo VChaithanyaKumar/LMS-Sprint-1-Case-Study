@@ -509,19 +509,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {}
+    "C:\\Users\\Dell\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Module2Sprint\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj",
+      "projectUniqueName": "G:\\Capgemini Training\\LMS Sprint1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj",
       "projectName": "LMS.UI",
-      "projectPath": "G:\\Module2Sprint\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj",
-      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "G:\\Module2Sprint\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\obj\\",
+      "projectPath": "G:\\Capgemini Training\\LMS Sprint1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj",
+      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+      "outputPath": "G:\\Capgemini Training\\LMS Sprint1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -535,14 +535,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\Module2Sprint\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.BAL\\LMS.BAL.csproj": {
-              "projectPath": "G:\\Module2Sprint\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.BAL\\LMS.BAL.csproj"
+            "G:\\Capgemini Training\\LMS Sprint1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.BAL\\LMS.BAL.csproj": {
+              "projectPath": "G:\\Capgemini Training\\LMS Sprint1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.BAL\\LMS.BAL.csproj"
             },
-            "G:\\Module2Sprint\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.DAL\\LMS.DAL.csproj": {
-              "projectPath": "G:\\Module2Sprint\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.DAL\\LMS.DAL.csproj"
+            "G:\\Capgemini Training\\LMS Sprint1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.DAL\\LMS.DAL.csproj": {
+              "projectPath": "G:\\Capgemini Training\\LMS Sprint1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.DAL\\LMS.DAL.csproj"
             },
-            "G:\\Module2Sprint\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj": {
-              "projectPath": "G:\\Module2Sprint\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj"
+            "G:\\Capgemini Training\\LMS Sprint1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj": {
+              "projectPath": "G:\\Capgemini Training\\LMS Sprint1\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj"
             }
           }
         }
@@ -571,7 +571,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

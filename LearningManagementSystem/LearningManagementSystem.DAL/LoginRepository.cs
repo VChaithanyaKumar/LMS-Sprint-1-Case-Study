@@ -12,7 +12,7 @@ namespace LMS.DAL
     public class LoginRepository: ILoginRepository
     {
         //Connecting to Database--Praveena
-        SqlConnection connection = new SqlConnection(@"Data Source=NAINACHINNA\SQLEXPRESS;Initial Catalog=LearningManagementSystem;Integrated Security=True");
+        SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-N7MA7MU\SQLEXPRESS;Initial Catalog=LearningManagementSystem;Integrated Security=True");
         SqlCommand command = null;
         public User GetLoginDetails(string userEmail)
         {

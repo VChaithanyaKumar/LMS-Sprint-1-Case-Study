@@ -19,7 +19,7 @@ namespace LMS.BAL
         
         public string RegisterUser(User user)
         {
-            if (!RegisterValidation.ValidatePassword(user.UserPassword))
+            if (RegisterValidation.ValidatePassword(user.UserPassword)!=true)
             {
                 return "A password must the Conditions.\n 1. Length should be between [8-15] \n 2. contains a Uppercase and a lower case Character \n 3. contains a number\nPlease Try Again.";  
             }
