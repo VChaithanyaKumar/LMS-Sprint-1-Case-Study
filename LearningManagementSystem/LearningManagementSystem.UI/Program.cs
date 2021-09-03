@@ -4,6 +4,7 @@ using LearningManagementSystem.Entities;// for accessing Entity Objects
 using System.IO;
 namespace LearningManagementSystem.UI
 {
+    //start of main
     class Program
     {
         static void Main(string[] args)

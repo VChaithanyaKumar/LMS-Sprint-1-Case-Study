@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JElcV6NenWXAOgf4urdS/GTeSThtHFAqrCFYhFkI/K8Pqn+zmmB4st7hupIzyMVDH5beBTOJ3GMdIHdcG2mpjg==",
+  "dgSpecHash": "3eKn/3jhNxd0SJ6iJTpwpZEcn9EeSCtqcG4SR0Oy34otXkTePVAIAb9gEJnSVxVKG53nWmPl6Whadi2O6c7LdA==",
   "success": true,
-  "projectFilePath": "G:\\Module2Sprint\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj",
+  "projectFilePath": "A:\\capgemini\\LMS-Sprint-1-Case-Study\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
