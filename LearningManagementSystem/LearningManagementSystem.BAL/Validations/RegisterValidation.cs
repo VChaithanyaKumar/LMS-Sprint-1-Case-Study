@@ -12,6 +12,7 @@ namespace LMS.BAL.Validations
         {
             if (Password.Equals(Re_Password))
             {
+
                 return true;
             }
             else

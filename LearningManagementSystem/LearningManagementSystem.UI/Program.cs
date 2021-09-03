@@ -1,6 +1,6 @@
 ﻿using System;
-using LMS.BAL;
-using LearningManagementSystem.Entities;
+using LMS.BAL;//for accessing Business Layer 
+using LearningManagementSystem.Entities;// for accessing Entity Objects
 using System.IO;
 namespace LearningManagementSystem.UI
 {
