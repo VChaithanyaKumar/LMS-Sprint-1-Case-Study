@@ -10,7 +10,7 @@ namespace LMS.BAL
         //object reference for RegisterRepository
         private RegisterRepository register = null;
         string Re_Password;
-        public RegisterService(User user, string Re_Password)
+        public RegisterService(User user,string Re_Password)
         {
             this.Re_Password = Re_Password;
             register = new RegisterRepository();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LMS.BAL.Validations
 {
-    class LoginValidation
+    public class LoginValidation
     {
         public static bool CheckPassword(string DbPassword, string UserPassword)
         {

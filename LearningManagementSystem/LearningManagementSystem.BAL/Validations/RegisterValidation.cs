@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 namespace LMS.BAL.Validations
 {
-    static class RegisterValidation
+    public static class RegisterValidation
     {
+        //check password and re-typed password
         public static bool CheckPassword(string Password, string Re_Password)
         {
             if (Password.Equals(Re_Password))
@@ -17,6 +18,7 @@ namespace LMS.BAL.Validations
             else
                 return false;
         }
+        //validating length
         public static bool ValidatePassword(string Password)
         {
             string pattern = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,15}$";
