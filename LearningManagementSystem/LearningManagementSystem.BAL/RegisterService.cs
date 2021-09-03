@@ -16,8 +16,13 @@ namespace LMS.BAL
             register = new RegisterRepository();
         }
         //invoking AddUser from the RegisterRepository
+        
         public string RegisterUser(User user)
         {
+            if (!RegisterValidation.ValidatePassword(user.UserPassword))
+            {
+                return "A password must the Conditions.\n 1. Length should be between [8-15] \n 2. contains a Uppercase and a lower case Character \n 3. contains a number\nPlease Try Again.";  
+            }
             if (RegisterValidation.CheckPassword(user.UserPassword, Re_Password))
             {
 
